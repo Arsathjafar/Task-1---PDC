@@ -1,0 +1,58 @@
+body {
+    margin: 100px;
+    padding: 100px;
+    background-color: dodgerblue;
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.card {
+    padding: 60px 40px 50px 40px;
+    background: rgb(50, 50, 50);
+    border-radius: 10px;
+}
+
+.card h1
+{
+    color:white;
+    font-weight: 700;
+}
+
+
+
+#button {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: dodgerblue;
+    margin-top: 20px;
+    margin-left: 50PX;
+    border: none;
+    outline: none;
+}
+
+#button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#button1 {
+    border-radius: 20px;
+    padding: 5px 10px;
+    background: rgb(255, 30, 30);
+    margin-top: 20px;
+    margin-left: 50PX;
+    border: none;
+    outline: none;
+}
+
+#button1:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}

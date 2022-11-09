@@ -1,0 +1,61 @@
+
+<html>
+
+<head>
+    <title>Posted Dated Cheque</title>
+    <link rel="stylesheet" href="pdc.css">
+</head>
+
+<body>
+    <h1>Post Dated Cheque</h1>
+    <div class="container">
+        <div class="card" style="color: white;">
+            Receipt Number :<input type="number" name="rnum" id="rnum">
+            Receipt Date :<input type="date" name="rdate" id="rdate"><br>
+
+            Invoice Number :<input type="number" name="inum" id="inum">
+            Invoice Date :<input type="date" name="idate" id="idate"><br>
+
+            <label >CHEQUE DETAILS<label><br>
+            Cheque Number :<input type="number" name="cnum" id="cnum">
+            Cheque Date :<input type="date" name="cdate" id="cdate"><br>
+
+            Name of a bank :<input type="text" name="bname" id="bname">
+            Future Date :<input type="date" name="fdate" id="fdate"><br>
+            <label> </label><br>
+            
+            Cheque Status:
+            <select id="list" >
+                <option value="">Select the status</option>
+                <option value="received">Received</option>
+                <option value="issued">Issued</option>
+            </select>
+            Notes :<input type="text" name="note" id="note"><br>
+            <label> </label><br>
+            <button onclick="addHtmlTableRow();">Add the Cheque</button>
+            <button onclick="editHtmlTbleSelectedRow();">Edit the Cheque</button>
+            <button onclick="removeSelectedRow();">Remove the Cheque</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="color: black;">
+            <table id="table" border="1">
+                <tr>
+                    <th>Receipt Number</th>
+                    <th>Receipt Date</th>
+                    <th>Invoice Number</th>
+                    <th>Invoice Date</th>
+                    <th>Cheque Number</th>
+                    <th>Cheque Received Date</th>
+                    <th>Bank Name </th>
+                    <th>Cheque Future Date</th>
+                    <th>Status</th>
+                    <th>Notes</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script language="javascript" type="text/javascript" src="pdc.js"></script>
+</body>
+
+</html>
