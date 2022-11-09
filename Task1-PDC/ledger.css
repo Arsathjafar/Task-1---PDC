@@ -1,0 +1,71 @@
+body {
+    background-color: dodgerblue;
+}
+
+
+
+.card {
+    padding: 60px 40px 50px 40px;
+    background: rgb(50, 50, 50);
+    border-radius: 10px;
+}
+
+.card h1,h2
+{
+    color:white;
+    font-weight: 700;
+}
+
+#username {
+    width: 200px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    padding: 6px;
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+#password {
+    width: 200px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    padding: 6px;
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+#button {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: dodgerblue;
+    margin-top: 20px;
+    margin-left: 50PX;
+    border: none;
+    outline: none;
+}
+
+#button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#button1 {
+    border-radius: 20px;
+    padding: 10px 50px;
+    background: rgb(255, 57, 57);
+    margin-top: 20px;
+    margin-left: 1000PX;
+    border: none;
+    outline: none;
+}
+
+#button1:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
